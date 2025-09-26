@@ -267,8 +267,8 @@ id:8,
 {
     id :30,
   title: 'Camara de seguridad wifi 360',
-    price: 15000,
-    img: 'img/camara360.jpg',
+    price: 35000,
+    img: 'img/camara.jpg',
     category: 'hogar',
     description: 'Camara de seguridad wifi 360, ideal para vigilancia y monitoreo remoto.'
   },
@@ -296,7 +296,7 @@ id:8,
 {
     id :33,
   title: 'Candado',
-    price: 15000,
+    price: 3500,
     img: 'img/candado.jpg',
     category: 'hogar',
     description: 'Candado de alta seguridad, ideal para proteger tus pertenencias.'
@@ -305,7 +305,7 @@ id:8,
 {
     id :34,
   title: 'Mochila de viaje Viral ',
-    price: 38000,
+    price: 39000,
     img: 'img/mochila.jpg',
     category: 'hogar',
     description: 'Mochila de viaje Viral,con cargador USB y múltiples compartimentos para una mejor organización.'
