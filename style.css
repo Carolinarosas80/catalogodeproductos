@@ -137,8 +137,57 @@ nav button.active {
 }
 
 footer {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
   text-align: center;
+  padding: 20px;
+  background: #080808;
+  font-size: 14px;
+  color: #333;
+  margin-top: 30px;
 }
+
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer i {
+  margin-right: 5px;
+}
+
+footer .fa-whatsapp {
+  color: #25D366; /* verde WhatsApp */
+}
+
+footer .fa-envelope {
+  color: #d93025; /* rojo Gmail */
+}
+
+/* --- Responsive --- */
+@media (max-width: 600px) {
+  footer {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .footer-info, 
+  .footer-contact {
+    margin-bottom: 10px;
+  }
+
+  .footer-contact p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  footer a {
+    display: inline-block;
+    margin-left: 0;
+  }
+}
+
