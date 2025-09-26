@@ -34,7 +34,7 @@ const products = [
   {
     id: 5,
     title: 'Cinta métrica Calidad profesional',
-    price:  2750,
+    price:  2850,
     img: 'img/cintametrica.jpg',
     category: 'herramientas',
     description: 'Cinta métrica calidad profesional 5mts $2850, 7,5mts $3750, 10 mts $4750.'
@@ -99,11 +99,11 @@ id:8,
   },
   {
     id :13,
-  title: 'Baliza Led, linterna portatil de Emergencia 4 en 1 ',
+  title: 'Baliza Led, linterna portatil 4 en 1  ',
     price:19000,
     img: 'img/baliza.jpg',
     category: 'herramientas',
-    description: 'Baliza , linterna portatil de emergencia 4 en 1, con luces LED, bateria portatil (power bank ) para cargar tu telefono u otros dispositivos.'
+    description: 'Baliza , linterna portatil , 3 modos de intermitencia, con luces LED,solar y usb , bateria portatil (power bank ) para cargar tu telefono u otros dispositivos.'
   },
   {
     id :14,
@@ -147,14 +147,14 @@ id:8,
     id :18,
   title: 'Valija de Aluminio de herramientas 187 Pcs',
     price: 195000,
-    img: 'img/Valijadealuminio.jpg',
+    img: 'img/valijadealuminio.jpg',
     category: 'herramientas',
     description: 'Valija de aluminio con 187 piezas de herramientas, ideal para uso  profesional.'
   },
 
 {
     id :19,
-  title: 'Lllave de tubo de 121 piezas juego de 1/2", 1/4" y 3/8"',
+  title: 'Llave de tubo de 121 piezas juego de 1/2", 1/4" y 3/8"',
     price: 116000,
     img: 'img/caja121piezas.jpg',
     category: 'herramientas',
@@ -186,7 +186,7 @@ id:8,
     id :22,
   title: 'Trabadisco alarma Moto',
     price: 19000,
-    img: 'img/candadotraba.jpg',
+    img: 'img/trabamoto.jpg',
     category: 'herramientas',
     description: 'Trabadisco alarma para moto, ideal para seguridad y protección contra robos.'
   },
@@ -226,11 +226,11 @@ id:8,
 
 {
     id :26,
-  title: 'Arracador de autos multifuncion ',
+  title: 'Arrancador de autos multifuncion ',
     price: 85000,
     img: 'img/arrancadordeauto.jpg',
     category: 'herramientas',
-    description: 'Arracador de autos multifuncion, ideal para trabajos de mecánica y mantenimiento automotriz.'
+    description: 'Arrancador de autos multifuncion, ideal para trabajos de mecánica y mantenimiento automotriz.'
   },
 
 
@@ -270,7 +270,7 @@ id:8,
     price: 35000,
     img: 'img/camara.jpg',
     category: 'hogar',
-    description: 'Camara de seguridad wifi 360, ideal para vigilancia y monitoreo remoto.'
+    description: 'Camara de seguridad wifi 360,lo conectas a un portalamparas , ideal para vigilancia y monitoreo remoto, con microfono '
   },
 
 
@@ -287,7 +287,7 @@ id:8,
 {
     id :32,
   title: 'Auto parlante bluetooth',
-    price: 35000,
+    price: 34000,
     img: 'img/autoparlante.jpg',
     category: 'hogar',
     description: 'Auto parlante bluetooth, con radio ,  con cargadr usb y entrada auxilliar  ideal para disfrutar de tu música en cualquier lugar.'
@@ -311,7 +311,55 @@ id:8,
     description: 'Mochila de viaje Viral,con cargador USB y múltiples compartimentos para una mejor organización.'
   },
 
+{
+    id :35,
+  title: 'Lector de billetes falsos ',
+    price:2000 ,
+    img: 'img/lectordebilletes.jpg',
+    category: 'hogar',
+    description: 'Lector de billetes falsos, ideal para verificar la autenticidad de tus billetes.'
+},
+{
+    id :36,
+  title: 'Calculadora letras grandes ',
+    price: 7300,
+    img: 'img/calculadora.jpg',
+    category: 'hogar',
+    description: 'Calculadora de letras grandes.'
+  },
 
+{
+    id :37,
+  title: 'Griferia monocomando para baño ',
+    price:26300 ,
+    img: 'img/griferia.jpg',
+    category: 'hogar',
+    description: 'Griferia monocomando de baño, control de caudal y temperatura '
+  },
+{
+    id :38,
+  title: 'Sistema Medidor de presion para neumaticos  ',
+    price: 38000,
+    img: 'img/sistematpms.jpg',
+    category: 'hogar',
+    description: 'Monitor digital solar mas usb , 4 sensores externos , alrma de presion y temperatura ,kit listo para usar .'
+  },
+{
+    id :39,
+  title: 'Camara para auto delantera y trasera full hd ',
+    price: 38000,
+    img: 'img/camaradeauto.jpg',
+    category: 'hogar',
+    description: 'Camara para auto delantera y trasera full hd , conexion wifi para visualizar y desacargr videos en tu celular , vision nocturna , funcion de reversa con angulo amplio .'
+  },
+{
+    id :38,
+  title: 'Contadora de billetes digital  ',
+    price: 84000,
+    img: 'img/contadordebilletes.jpg',
+    category: 'hogar',
+    description: 'Contadora de billetes digital, ideal para contar y verificar billetes de forma rápida y precisa.'
+  },
 
 ]
 const grid = document.getElementById('productsGrid');
