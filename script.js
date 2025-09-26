@@ -302,6 +302,17 @@ id:8,
     description: 'Candado de alta seguridad, ideal para proteger tus pertenencias.'
   },
 
+{
+    id :34,
+  title: 'Mochila de viaje Viral ',
+    price: 38000,
+    img: 'img/mochila.jpg',
+    category: 'hogar',
+    description: 'Mochila de viaje Viral,con cargador USB y múltiples compartimentos para una mejor organización.'
+  },
+
+
+
 ]
 const grid = document.getElementById('productsGrid');
 const filterBtns = document.querySelectorAll('.filter');
