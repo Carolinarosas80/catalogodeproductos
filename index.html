@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Productos</h1>
+    <nav>
+      <button class="filter active" data-filter="all">Todos</button>
+      <button class="filter" data-filter="hogar">Hogar</button>
+      <button class="filter" data-filter="herramientas">Herramientas</button>
+    </nav>
+    <input type="text" id="searchInput" placeholder="Buscar producto..." />
+  </header>
+
+  <main>
+    <section id="productsGrid" class="grid"></section>
+  </main>
+
+  <footer>
+    <p>Para encargar y comprar productos comunicate al WhatsApp Hernán: <a href="https://wa.me/5491167437311" target="_blank">01167437311</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
