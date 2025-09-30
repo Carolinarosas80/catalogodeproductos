@@ -304,11 +304,11 @@ id:8,
 
 {
     id :34,
-  title: 'Mochila de viaje Viral ',
+  title: 'Mochila de viaje ',
     price: 39000,
     img: 'img/mochila.jpg',
     category: 'hogar',
-    description: 'Mochila de viaje Viral,con cargador USB y múltiples compartimentos para una mejor organización.'
+    description: 'Mochila de viaje ,con cargador USB y múltiples compartimentos para una mejor organización.'
   },
 
 {
@@ -353,12 +353,28 @@ id:8,
     description: 'Camara para auto delantera y trasera full hd , conexion wifi para visualizar y desacargr videos en tu celular , vision nocturna , funcion de reversa con angulo amplio .'
   },
 {
-    id :38,
+    id :40,
   title: 'Contadora de billetes digital  ',
     price: 84000,
     img: 'img/contadordebilletes.jpg',
     category: 'hogar',
     description: 'Contadora de billetes digital, ideal para contar y verificar billetes de forma rápida y precisa.'
+  },
+  {
+    id :41,
+  title: 'Sopladora aspiradora inalambrica 21 v  ',
+    price: 39500,
+    img: 'img/sopladora.jpg',
+    category: 'herramientas',
+    description: 'Sopladora aspiradora inalambrica 21 v, con dos baterias .'
+  },
+{
+    id :42,
+  title: 'Paneles Led Flexible 20x90cm   ',
+    price: 139500,
+    img: 'img/imagenled.jpg',
+    category: 'hogar',
+    description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cargue largo con corte y contro remoto .'
   },
 
 ]
