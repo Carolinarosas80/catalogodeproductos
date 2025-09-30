@@ -374,7 +374,7 @@ id:8,
     price: 139500,
     img: 'img/imagenled.jpg',
     category: 'hogar',
-    description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable e largo con corte y contro remoto .'
+    description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .'
   },
 
 ]
