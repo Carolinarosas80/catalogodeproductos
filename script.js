@@ -376,7 +376,30 @@ id:8,
     category: 'hogar',
     description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .'
   },
-
+{
+    id :43,
+  title: ' Juego de llave de tubo 12 piezas , con criquet  1/2"',
+    price: 19500,
+    img: 'img/llave de tubo.jpg',
+    category: 'herramientas',
+    description: ' Criquet profesional de alta resistencia , mango ergonomico antideslizante .'
+  },
+{
+    id :44,
+  title: 'Destornillador electrico usb  de 47 piezas ',
+    price: 18500,
+    img: 'img/destornilladorinhalambrico.jpg',
+    category: 'herramientas',
+    description: 'Destornillador electrico usb  de 47 piezas ,kit basico para llegar a todos los rincones incluye mechas y puntas .'
+  },
+{
+    id :45,
+  title: ' Kit destornillador 115 en 1  ',
+    price: 14000,
+    img: 'img/kitdestornillador.jpg',
+    category: 'herramientas',
+    description: 'Kit destornillador 115 en 1, incluye una amplia variedad de puntas y accesorios ideal para reparaciones de notebook , camaras ,smartphone , y articulos electronicos , posee puntas magneticas.'
+  },
 ]
 const grid = document.getElementById('productsGrid');
 const filterBtns = document.querySelectorAll('.filter');
