@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: ' Llave T 24 piezas',
-    price: 2900,
+    price: 3500,
     img: 'img/pieza24.jpg',
     category: 'herramientas',
     description: 'Llave T de 24 piezas, uso profesional.'
@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     title: 'Pinza  Mango antideslizante 8\"',
-    price: 3300,
+    price: 6000,
     img: 'img/pinza.jpg',
     category: 'herramientas',
     description: 'Pinza universal profesional 8\".'
@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     title: 'Alicate profesional mango antideslizante de 8"',
-    price: 3300,
+    price: 6000,
     img: 'img/tenaza.jpg',
     category: 'herramientas',
     description: 'Alicate de uso profesional.'
@@ -41,8 +41,8 @@ const products = [
   },
   {
     id: 6,
-    title: 'Pilas AA y AAA pack x 4 u',
-    price: 1400,
+    title: 'Pilas AA y AAA pack x u',
+    price: 280,
     img: 'img/pilas.jpg',
     category: 'hogar',
     description: 'Pilas  AA y AAA, ideales para dispositivos electrónicos.'
@@ -83,7 +83,7 @@ id:8,
 {
     id :11,
   title: 'Torquimetro Digital ',
-    price:99000,
+    price:95000,
     img: 'img/torquimetro.jpg',
     category: 'herramientas',
     description: ' Llave Torquimetro torsion , con llave de encastre .'
@@ -108,7 +108,7 @@ id:8,
   {
     id :14,
   title: 'Balanza Industrial 300kg ',
-    price: 200000,
+    price: 180000,
     img: 'img/Balanzaindustrial.jpg',
     category: 'herramientas',
     description: 'Balanza industrial de alta precisión, capacidad de 300kg tambien viene de 500kg $240000.'
@@ -119,7 +119,7 @@ id:8,
 {
     id :15,
   title: 'Inflador de aire portátil ',
-    price:37000,
+    price:36000,
     img: 'img/inflador.jpg',
     category: 'herramientas',
     description: 'Inflador de aire portátil, ideal para inflar neumáticos y otros objetos, con diferentes picos con linterna y balizas led .'
@@ -146,7 +146,7 @@ id:8,
 {
     id :18,
   title: 'Valija de Aluminio de herramientas 187 Pcs',
-    price: 195000,
+    price: 189000,
     img: 'img/valijadealuminio.jpg',
     category: 'herramientas',
     description: 'Valija de aluminio con 187 piezas de herramientas, ideal para uso  profesional.'
