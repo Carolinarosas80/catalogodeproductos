@@ -400,7 +400,79 @@ id:8,
     category: 'herramientas',
     description: 'Kit destornillador 115 en 1, incluye una amplia variedad de puntas y accesorios ideal para reparaciones de notebook , camaras ,smartphone , y articulos electronicos , posee puntas magneticas.'
   },
+{
+    id :46,
+  title: ' Mezcladora electrica de mano   ',
+    price: 95000,
+    img: 'img/mezcladora.jpg',
+    category: 'herramientas',
+    description: 'Mezcladora electrica de mano, ideal para mezclar pinturas, cementos yeso o mortero.'
+  },
+
+{
+    id :47,
+  title: ' LLave de paso doble forjado  ',
+    price: 6300,
+    img: 'img/canilla.jpg',
+    category: 'herramientas',
+    description: 'LLave de paso doble forjado con salida principal y valvula secundaria , ideal para conectar lavarropas mangueras o accesorios.'
+  },
+{
+    id :48,
+  title: 'Pulidora electrica de alto rendimiento  ',
+    price: 105000,
+    img: 'img/pulidora.jpg',
+    category: 'herramientas',
+    description: 'Pulidora electrica de alto rendimiento, ideal para pulir  autos maderas y superficies varias , potencia y velocidad regulables para acabados profesionales.'
+  },
+
+{
+    id :49,
+  title: ' Motosierra a gasolina profesional 52cc ',
+    price: 115000,
+    img: 'img/motosierra.jpg',
+    category: 'herramientas',
+    description: 'Motosierra a gasolina profesional 52cc, ideal para trabajos de jardinería y tala de árboles, con gran potencia y durabilidad.'
+  },
+
+{
+    id :50,
+  title: ' Balanza electronica digital 40 kg  ',
+    price: 50000,
+    img: 'img/balanzaelectronica.jpg',
+    category: 'herramientas',
+    description: 'Balanza electronica digital 40 kg, ideal para pesar objetos con alta precision, pantalla LCD y facil de usar.'
+  }, 
+  {
+    id :51,
+  title: ' Hacha con mango de madera   ',
+    price: 9800,
+    img: 'img/hacha.jpg',
+    category: 'herramientas',
+    description: 'Hacha con mango de madera, ideal para trabajos de jardinería y construcción, con hoja de acero de alta calidad.'
+  },
+
+ {
+    id :52,
+  title: ' Maquina electrica para hacer  hielo   ',
+    price: 169000,
+    img: 'img/maquinadehielo.jpg',
+    category: 'herramientas',
+    description: 'Maquina electrica para hacer hielo, produce cubos rapidamente en minutos  ideal para preparar bebidas y cócteles, de fácil uso y limpieza.'
+  },
+
+{
+    id :53,
+  title: ' kit luces led para bicicletas    ',
+    price: 7500,
+    img: 'img/lucesdebicis.jpg',
+    category: 'herramientas',
+    description: 'luz delantera y luz trasera recargables por usb .'
+},
+
+
 ]
+
 const grid = document.getElementById('productsGrid');
 const filterBtns = document.querySelectorAll('.filter');
 const searchInput = document.getElementById('searchInput');
