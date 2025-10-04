@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     title: 'Pinza  Mango antideslizante 8\"',
-    price: 6000,
+    price: 4500,
     img: 'img/pinza.jpg',
     category: 'herramientas',
     description: 'Pinza universal profesional 8\".'
@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     title: 'Alicate profesional mango antideslizante de 8"',
-    price: 6000,
+    price: 4500,
     img: 'img/tenaza.jpg',
     category: 'herramientas',
     description: 'Alicate de uso profesional.'
@@ -119,7 +119,7 @@ id:8,
 {
     id :15,
   title: 'Inflador de aire portátil ',
-    price:36000,
+    price:32000,
     img: 'img/inflador.jpg',
     category: 'herramientas',
     description: 'Inflador de aire portátil, ideal para inflar neumáticos y otros objetos, con diferentes picos con linterna y balizas led .'
@@ -267,7 +267,7 @@ id:8,
 {
     id :30,
   title: 'Camara de seguridad wifi 360',
-    price: 35000,
+    price: 32000,
     img: 'img/camara.jpg',
     category: 'hogar',
     description: 'Camara de seguridad wifi 360,lo conectas a un portalamparas , ideal para vigilancia y monitoreo remoto, con microfono '
@@ -287,7 +287,7 @@ id:8,
 {
     id :32,
   title: 'Auto parlante bluetooth',
-    price: 34000,
+    price: 32000,
     img: 'img/autoparlante.jpg',
     category: 'hogar',
     description: 'Auto parlante bluetooth, con radio ,  con cargadr usb y entrada auxilliar  ideal para disfrutar de tu música en cualquier lugar.'
@@ -473,85 +473,79 @@ id:8,
 
 ]
 
+// REFERENCIAS
 const grid = document.getElementById('productsGrid');
-const filterBtns = document.querySelectorAll('.filter');
 const searchInput = document.getElementById('searchInput');
+const filterButtons = document.querySelectorAll('.filter');
 
+// FORMATO DE PRECIO
 function formatPrice(num) {
   return '$' + Number(num).toLocaleString('es-AR');
 }
 
+// CREAR CARD
 function createCard(product) {
-  const card = document.createElement('article');
+  const card = document.createElement('div');
   card.className = 'card';
   card.dataset.category = product.category;
 
   card.innerHTML = `
     <div class="thumb">
-      <img src="${product.img}" alt="${product.title}" loading="lazy" onerror="this.src='https://via.placeholder.com/400x300?text=No+Image'"/>
+      <img src="${product.img}" alt="${product.title}">
     </div>
     <div class="body">
       <div class="title">
         <span>${product.title}</span>
-        <span class="price">${formatPrice(product.price)}</span>
+        <span>${formatPrice(product.price)}</span>
       </div>
-      <div class="meta">
-        <span class="badge">${product.category}</span>
-      </div>
-      <div class="description hidden">
-        <p>${product.description}</p>
-      </div>
+      <p class="meta">${product.description}</p>
     </div>
     <div class="actions">
-      <button class="more">Ver</button>
+      <button class="btn-ver">Ver</button>
     </div>
   `;
 
-  const moreBtn = card.querySelector('.more');
-  const desc = card.querySelector('.description');
-  moreBtn.addEventListener('click', () => {
-    desc.classList.toggle('hidden');
-    moreBtn.textContent = desc.classList.contains('hidden') ? 'Ver' : 'Ocultar';
+  const btn = card.querySelector('.btn-ver');
+  const meta = card.querySelector('.meta');
+
+  btn.addEventListener('click', () => {
+    meta.classList.toggle('visible');
+    btn.textContent = meta.classList.contains('visible') ? 'Ocultar' : 'Ver';
   });
 
   return card;
 }
 
+// RENDERIZAR PRODUCTOS
 function renderProducts(list) {
   grid.innerHTML = '';
   if (!list.length) {
-    grid.innerHTML = `<p style="grid-column:1/-1;color:#666">No se encontraron productos.</p>`;
+    grid.innerHTML = '<p style="grid-column:1/-1;color:#777;">No se encontraron productos.</p>';
     return;
   }
-  const fragment = document.createDocumentFragment();
-  list.forEach(p => fragment.appendChild(createCard(p)));
-  grid.appendChild(fragment);
+  list.forEach(product => grid.appendChild(createCard(product)));
 }
 
-filterBtns.forEach(btn => {
+// BÚSQUEDA
+searchInput.addEventListener('input', e => {
+  const term = e.target.value.toLowerCase().trim();
+  const filtered = products.filter(p =>
+    p.title.toLowerCase().includes(term) ||
+    p.description.toLowerCase().includes(term)
+  );
+  renderProducts(filtered);
+});
+
+// FILTRO POR CATEGORÍA
+filterButtons.forEach(btn => {
   btn.addEventListener('click', () => {
-    filterBtns.forEach(b => b.classList.remove('active'));
+    filterButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    const cat = btn.dataset.filter;
-    applyFilters(cat, searchInput.value.trim());
+    const filter = btn.dataset.filter;
+    const filtered = filter === 'all' ? products : products.filter(p => p.category === filter);
+    renderProducts(filtered);
   });
 });
 
-searchInput.addEventListener('input', (e) => {
-  const term = e.target.value.trim();
-  const active = document.querySelector('.filter.active');
-  const cat = active ? active.dataset.filter : 'all';
-  applyFilters(cat, term);
-});
-
-function applyFilters(category = 'all', term = '') {
-  let filtered = products.slice();
-  if (category !== 'all') filtered = filtered.filter(p => p.category === category);
-  if (term) {
-    const q = term.toLowerCase();
-    filtered = filtered.filter(p => p.title.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q));
-  }
-  renderProducts(filtered);
-}
-
-applyFilters('all');
+// INICIAL
+renderProducts(products);
