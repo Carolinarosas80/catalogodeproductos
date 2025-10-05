@@ -470,6 +470,84 @@ id:8,
     description: 'luz delantera y luz trasera recargables por usb .'
 },
 
+{
+    id :54,
+  title: ' Set de mechas 8 piezas    ',
+    price: 6900,
+    img: 'img/mechas.jpg',
+    category: 'herramientas',
+    description: 'Set de mechas de alta calidad, incluye 8 piezas en diferentes tamaños, ideal para perforar pared .'
+},
+{
+    id :55,
+  title: ' Taladro con kit de herramientas uso profesional  ',
+    price: 90000,
+    img: 'img/cajataladro.jpg',
+    category: 'herramientas',
+    description: 'Taladro con kit de herramientas de uso profesional, incluye un taladro inhalambrico, 2 baterias de 21 v , alicate de punta larga , 2 destornilladores, un mango  de trinquete , un cuter, una cinta aislamte un sonda electrico , una cinta metrica , 9 manguitos y 6 mechas.'
+},
+{
+    id :56,
+  title: ' Martillo   ',
+    price: 6900,
+    img: 'img/martillo.jpg',
+    category: 'herramientas',
+    description: 'Martillo de acero forjado, ideal para trabajos de construcción y reparación.'
+},
+{
+    id :57,
+  title: ' Cuchara de albañil  ',  
+    price: 3300,
+    img: 'img/cucharon.jpg',
+    category: 'herramientas',
+    description: 'Cuchara de albañil, ideal para trabajos de construcción y reparación.'
+},
+
+{
+    id :58,
+  title: ' Broca esacalonada de titanio 4 -20mm  ',  
+    price: 4800,
+    img: 'img/broca.jpg',
+    category: 'herramientas',
+    description: 'Broca escalonada de titanio, ideal para perforar materiales de diferentes grosores.'
+},
+{
+    id :59,
+  title: ' Discos flap blister x 10 unidades ',  
+    price: 8500,
+    img: 'img/discosflap.jpg',
+    category: 'herramientas',
+    description: 'Discos flap, ideales para lijar y pulir superficies de metal y madera.'
+},
+
+{
+    id :60,
+  title: ' Liquido refrigerante concentrado  x 1 litro',  
+    price: 4600,
+    img: 'img/liquidorefrigerante.jpg',
+    category: 'herramientas',
+    description: 'Liquido refrigerante concentrado, colores rojo amarillo , verde .'
+},
+
+{
+    id :61,
+  title: ' Lubricante multiuso 330 cm 3 ',  
+    price: 5500,
+    img: 'img/lubricante.jpg',
+    category: 'herramientas',
+    description: 'Lubricante multiuso, ideal para evitar el oxido , lubrica y destraba .'
+},
+{
+    id :62,
+  title: ' Aceite semisintetico 10 w 40 ',  
+    price: 31000,
+    img: 'img/aceiteelaion.jpg',
+    category: 'herramientas',
+    description: 'Aceite semisintetico 10 w 40, ideal para motores de alto rendimiento.'
+},
+
+
+
 
 ]
 
