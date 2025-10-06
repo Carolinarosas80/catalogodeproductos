@@ -75,7 +75,7 @@ id:8,
   {
     id :10,
   title: 'Aspiradora Industrial 20l',
-    price: 75000,
+    price: 85000,
     img: 'img/aspiradora.jpg',
     category: 'herramientas',
     description: 'Aspiradora industrial potente , funcion seco y humedo 20 litros.'
@@ -545,9 +545,23 @@ id:8,
     category: 'herramientas',
     description: 'Aceite semisintetico 10 w 40, ideal para motores de alto rendimiento.'
 },
+{
+    id :63,
+  title: ' Kit taladro mas amoladora de alta potencia inhalambrica ',  
+    price: 125000,
+    img: 'img/kittaladro.jpg',
+    category: 'herramientas',
+    description: 'Kit de herramientas que incluye un taladro y una amoladora de alta potencia, ambos inhalambricos, incluye 2 baterias mas cargador rapido.'
+},
 
-
-
+{
+    id :64,
+  title: ' Desmalezadora a explosión 52cc ',  
+    price: 126000,
+    img: 'img/desmalezadora.jpg',
+    category: 'herramientas',
+    description: 'Desmalezadora a explosión 52cc, ideal para trabajos de jardinería y mantenimiento de áreas verdes.'
+},
 
 ]
 
