@@ -548,7 +548,7 @@ id:8,
 {
     id :63,
   title: ' Kit taladro mas amoladora de alta potencia inhalambrica ',  
-    price: 125000,
+    price: 130000,
     img: 'img/kittaladro.jpg',
     category: 'herramientas',
     description: 'Kit de herramientas que incluye un taladro y una amoladora de alta potencia, ambos inhalambricos, incluye 2 baterias mas cargador rapido.'
