@@ -237,7 +237,7 @@ id:8,
 {
     id :27,
   title: 'Linga Candado forrada',
-    price: 13000,
+    price: 13500,
     img: 'img/lingacandado.jpg',
     category: 'herramientas',
     description: 'Linga Candado forrada,  ideal bicicletas y motos '
@@ -249,7 +249,7 @@ id:8,
 {
     id :28,
   title: 'Hidrolavadora Portatil a bateria',
-    price: 50000,
+    price: 52000,
     img: 'img/hidrolavadora.jpg',
     category: 'herramientas',
     description: 'Hidrolavadora portatil a bateria , potente , ligera y facil de usar para limpieza de autos , motos , incluye accesorios'
@@ -371,7 +371,7 @@ id:8,
 {
     id :42,
   title: 'Paneles Led Flexible 20x90cm   ',
-    price: 139500,
+    price: 145000,
     img: 'img/imagenled.jpg',
     category: 'hogar',
     description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .'
