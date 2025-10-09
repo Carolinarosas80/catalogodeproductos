@@ -565,7 +565,7 @@ id:8,
 {
     id :65,
   title: ' Zuncho Criquet de amarre de 10 mts ',  
-    price: 16500,
+    price: 17000,
     img: 'img/zunchocriquet.jpg',
     category: 'herramientas',
     description: 'Zuncho Criquet de amarre de 10 mts, super reforado,  ideal para amarrar y remolcar 5 toneladas.'
