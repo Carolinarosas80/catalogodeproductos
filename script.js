@@ -74,7 +74,7 @@ id:8,
   },
   {
     id :10,
-  title: 'Aspiradora Industrial 20l',
+  title: 'Aspiradora Industrial 20l (sin stock )',
     price: 85000,
     img: 'img/aspiradora.jpg',
     category: 'herramientas',
@@ -91,7 +91,7 @@ id:8,
 
   {
     id :12,
-  title: 'Pistola de pintura inalambrica 48v ',
+  title: 'Pistola de pintura inalambrica 48v (sin stock )',
     price: 55000,
     img: 'img/pistoladepintura.jpg',
     category: 'herramientas',
@@ -249,7 +249,7 @@ id:8,
 {
     id :28,
   title: 'Hidrolavadora Portatil a bateria',
-    price: 52000,
+    price: 55000,
     img: 'img/hidrolavadora.jpg',
     category: 'herramientas',
     description: 'Hidrolavadora portatil a bateria , potente , ligera y facil de usar para limpieza de autos , motos , incluye accesorios'
@@ -276,11 +276,11 @@ id:8,
 
 {
     id :31,
-  title: 'Lampara de mesa Led con cargador usb ',
-    price: 20000,
-    img: 'img/lamparademesa.jpg',
-    category: 'hogar',
-    description: 'Lampara de mesa Led con cargador usb, ideal para iluminar tu mesa de luz .'
+  title: 'Vincha led de goma ',
+    price: 6500,
+    img: 'img/vinchaleddegoma.jpg',
+    category: 'herramientas',
+    description: 'Vincha led de goma, ideal para trabajos de mecánica y actividades al aire libre.'
   },
 
 
@@ -304,11 +304,11 @@ id:8,
 
 {
     id :34,
-  title: 'Mochila de viaje ',
-    price: 39000,
-    img: 'img/mochila.jpg',
+  title: 'Vincha led resistente 1100 lumens',
+    price: 12000,
+    img: 'img/vinchaled.jpg',
     category: 'hogar',
-    description: 'Mochila de viaje ,con cargador USB y múltiples compartimentos para una mejor organización.'
+    description: 'Vincha led 1100 lumens ,  resistente al agua, alcance 300 mts de disctancia , ideal  para mecanica o para actividades al aire libre.'
   },
 
 {
@@ -454,11 +454,11 @@ id:8,
 
  {
     id :52,
-  title: ' Maquina electrica para hacer  hielo   ',
-    price: 169000,
-    img: 'img/maquinadehielo.jpg',
+  title: 'Vincha led de 5 focos  ',
+    price: 8000,
+    img: 'img/vinchaled5.jpg',
     category: 'herramientas',
-    description: 'Maquina electrica para hacer hielo, produce cubos rapidamente en minutos  ideal para preparar bebidas y cócteles, de fácil uso y limpieza.'
+    description: 'Vincha led de 5 focos, ideal para trabajos de mecánica y actividades al aire libre,super potente , carga usb .'
   },
 
 {
@@ -537,17 +537,10 @@ id:8,
     category: 'herramientas',
     description: 'Lubricante multiuso, ideal para evitar el oxido , lubrica y destraba .'
 },
+
 {
     id :62,
-  title: ' Aceite semisintetico 10 w 40 ',  
-    price: 31000,
-    img: 'img/aceiteelaion.jpg',
-    category: 'herramientas',
-    description: 'Aceite semisintetico 10 w 40, ideal para motores de alto rendimiento.'
-},
-{
-    id :63,
-  title: ' Kit taladro mas amoladora de alta potencia inhalambrica ',  
+  title: ' Kit taladro mas amoladora de alta potencia inhalambrica (sin stock )',  
     price: 130000,
     img: 'img/kittaladro.jpg',
     category: 'herramientas',
@@ -555,7 +548,7 @@ id:8,
 },
 
 {
-    id :64,
+    id :63,
   title: ' Desmalezadora a explosión 52cc ',  
     price: 126000,
     img: 'img/desmalezadora.jpg',
@@ -563,12 +556,20 @@ id:8,
     description: 'Desmalezadora a explosión 52cc, ideal para trabajos de jardinería y mantenimiento de áreas verdes.'
 },
 {
-    id :65,
+    id :64,
   title: ' Zuncho Criquet de amarre de 10 mts ',  
     price: 17000,
     img: 'img/zunchocriquet.jpg',
     category: 'herramientas',
     description: 'Zuncho Criquet de amarre de 10 mts, super reforado,  ideal para amarrar y remolcar 5 toneladas.'
+},
+{
+    id :65,
+  title: 'Set de juego de llaves de 46 piezas ',  
+    price: 24500,
+    img: 'img/setde46pzas.jpg',
+    category: 'herramientas',
+    description: 'Set de juego de llaves de 46 piezas, uso profesional , ideal para trabajos de mecánica y mantenimiento.'
 },
 ]
 
