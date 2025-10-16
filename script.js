@@ -127,7 +127,7 @@ id:8,
   {
     id :16,
   title: 'LLave  tubo 94 Pcs de 3/8" y 1/4"',
-    price: 65000,
+    price: 69000,
     img: 'img/cajade94piezas.jpg',
     category: 'herramientas',
     description: 'Juego de llaves de tubo de 94 piezas, incluye 3/8" y 1/4", uso profesional , acero al cromo vanadio de alta calidad, cumple normas Din e Iso.'
@@ -136,7 +136,7 @@ id:8,
 {
     id :17,
   title: 'Llave tubo juego de 82 piezas de 1/2"y 1/4"',
-    price: 69000,
+    price: 73000,
     img: 'img/cajade82piezas.jpg',
     category: 'herramientas',
     description: 'Juego de llaves de tubo de 82 piezas, incluye 1/2" y 1/4", uso profesional , acero al cromo vanadio de alta calidad, cumple normas Din e Iso.'
@@ -155,7 +155,7 @@ id:8,
 {
     id :19,
   title: 'Llave de tubo de 121 piezas juego de 1/2", 1/4" y 3/8"',
-    price: 116000,
+    price: 119000,
     img: 'img/caja121piezas.jpg',
     category: 'herramientas',
     description: 'Juego de llaves de tubo de 121 piezas, incluye 1/2", 1/4" y 3/8", uso profesional , acero al cromo vanadio de alta calidad, cumple normas Din e Iso.'
@@ -166,7 +166,7 @@ id:8,
 {
     id :20,
   title: 'Llave tubo juego de 216 piezas de 1/2"y 1/4"',
-    price: 165000,
+    price: 169000,
     img: 'img/cajade216piezas.jpg',
     category: 'herramientas',
     description: 'Juego de llaves de tubo de 216 piezas, incluye 1/2" y 1/4", uso profesional , acero al cromo vanadio de alta calidad, cumple normas Din e Iso.'
@@ -226,7 +226,7 @@ id:8,
 
 {
     id :26,
-  title: 'Arrancador de autos multifuncion ',
+  title: 'Arrancador de autos multifuncion (Sin Stock) ',
     price: 85000,
     img: 'img/arrancadordeauto.jpg',
     category: 'herramientas',
@@ -481,10 +481,10 @@ id:8,
 {
     id :55,
   title: ' Taladro con kit de herramientas uso profesional  ',
-    price: 90000,
-    img: 'img/cajataladro.jpg',
+    price: 57000,
+    img: 'img/taladrokitenmaletin.jpg',
     category: 'herramientas',
-    description: 'Taladro con kit de herramientas de uso profesional, incluye un taladro inhalambrico, 2 baterias de 21 v , alicate de punta larga , 2 destornilladores, un mango  de trinquete , un cuter, una cinta aislamte un sonda electrico , una cinta metrica , 9 manguitos y 6 mechas.'
+    description: 'Taladro atornillador inhalambrico con 2 baterias de 21 voltios , maletin con accesorios.'
 },
 {
     id :56,
@@ -540,11 +540,11 @@ id:8,
 
 {
     id :62,
-  title: ' Kit taladro mas amoladora de alta potencia inhalambrica (sin stock )',  
-    price: 130000,
-    img: 'img/kittaladro.jpg',
+  title: ' Kit taladro mas amoladora de alta potencia inhalambrica ',  
+    price: 156000,
+    img: 'img/kittaladroyamoladora.jpg',
     category: 'herramientas',
-    description: 'Kit de herramientas que incluye un taladro y una amoladora de alta potencia, ambos inhalambricos, incluye 2 baterias mas cargador rapido.'
+    description: 'Kit de herramientas que incluye un taladro inhalámbrico con velocidad ajustable y una amoladora angular  de alta potencia, ambos inhalámbricos, incluye 2 baterías más cargador rápido.'
 },
 
 {
@@ -570,6 +570,30 @@ id:8,
     img: 'img/setde46pzas.jpg',
     category: 'herramientas',
     description: 'Set de juego de llaves de 46 piezas, uso profesional , ideal para trabajos de mecánica y mantenimiento.'
+},
+{
+    id :66,
+  title: 'Taladro de impacto con 48 voltios  ',  
+    price: 138000,
+    img: 'img/taladrodeimpacto.jpg',
+    category: 'herramientas',
+    description: 'Taladro de impacto con 48 voltios,  potente motor para trabajos intensos, maletín de transporte, y cuatro puntas profesionales  incluye 2 baterias de litio.'
+},
+{
+    id :67,
+  title: 'Llave criquet de 1/2 ',  
+    price: 8000,
+    img: 'img/llavecriquet.jpg',
+    category: 'herramientas',
+    description: 'Llave criquet de 1/2, ideal para trabajos de mecánica y mantenimiento.'
+},
+{
+    id :68,
+  title: 'Drone plegable 6 KHD ',  
+    price: 57000,
+    img: 'img/drone.jpg',
+    category: 'herramientas',
+    description: 'Drone plegable 6 KHD, ideal para capturar imágenes aéreas y videos en alta definición, protección 360 contra golpes, ideal para principiantes, fácil de usar.'
 },
 ]
 
