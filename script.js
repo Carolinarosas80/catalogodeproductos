@@ -328,16 +328,9 @@ id:8,
     description: 'Calculadora de letras grandes.'
   },
 
+
 {
     id :37,
-  title: 'Griferia monocomando para baño ',
-    price:26300 ,
-    img: 'img/griferia.jpg',
-    category: 'hogar',
-    description: 'Griferia monocomando de baño, control de caudal y temperatura '
-  },
-{
-    id :38,
   title: 'Sistema Medidor de presion para neumaticos  ',
     price: 38000,
     img: 'img/sistematpms.jpg',
@@ -345,7 +338,7 @@ id:8,
     description: 'Monitor digital solar mas usb , 4 sensores externos , alrma de presion y temperatura ,kit listo para usar .'
   },
 {
-    id :39,
+    id :38,
   title: 'Camara para auto delantera y trasera full hd ',
     price: 38000,
     img: 'img/camaradeauto.jpg',
@@ -353,7 +346,7 @@ id:8,
     description: 'Camara para auto delantera y trasera full hd , conexion wifi para visualizar y desacargr videos en tu celular , vision nocturna , funcion de reversa con angulo amplio .'
   },
 {
-    id :40,
+    id :39,
   title: 'Contadora de billetes digital  ',
     price: 84000,
     img: 'img/contadordebilletes.jpg',
@@ -361,7 +354,7 @@ id:8,
     description: 'Contadora de billetes digital, ideal para contar y verificar billetes de forma rápida y precisa.'
   },
   {
-    id :41,
+    id :40,
   title: 'Sopladora aspiradora inalambrica 21 v  ',
     price: 39500,
     img: 'img/sopladora.jpg',
@@ -369,7 +362,7 @@ id:8,
     description: 'Sopladora aspiradora inalambrica 21 v, con dos baterias .'
   },
 {
-    id :42,
+    id :41,
   title: 'Paneles Led Flexible 20x90cm   ',
     price: 145000,
     img: 'img/imagenled.jpg',
@@ -377,7 +370,7 @@ id:8,
     description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .'
   },
 {
-    id :43,
+    id :42,
   title: ' Juego de llave de tubo 12 piezas , con criquet  1/2"',
     price: 19500,
     img: 'img/llave de tubo.jpg',
@@ -385,15 +378,15 @@ id:8,
     description: ' Criquet profesional de alta resistencia , mango ergonomico antideslizante .'
   },
 {
-    id :44,
-  title: 'Destornillador electrico usb  de 47 piezas ',
+    id :43,
+  title: 'Destornillador electrico usb  de 47 piezas (Sin stock) ',
     price: 18500,
     img: 'img/destornilladorinhalambrico.jpg',
     category: 'herramientas',
     description: 'Destornillador electrico usb  de 47 piezas ,kit basico para llegar a todos los rincones incluye mechas y puntas .'
   },
 {
-    id :45,
+    id :44,
   title: ' Kit destornillador 115 en 1  ',
     price: 14000,
     img: 'img/kitdestornillador.jpg',
@@ -401,7 +394,7 @@ id:8,
     description: 'Kit destornillador 115 en 1, incluye una amplia variedad de puntas y accesorios ideal para reparaciones de notebook , camaras ,smartphone , y articulos electronicos , posee puntas magneticas.'
   },
 {
-    id :46,
+    id :45,
   title: ' Mezcladora electrica de mano   ',
     price: 95000,
     img: 'img/mezcladora.jpg',
@@ -409,16 +402,9 @@ id:8,
     description: 'Mezcladora electrica de mano, ideal para mezclar pinturas, cementos yeso o mortero.'
   },
 
+
 {
-    id :47,
-  title: ' LLave de paso doble forjado  ',
-    price: 6300,
-    img: 'img/canilla.jpg',
-    category: 'herramientas',
-    description: 'LLave de paso doble forjado con salida principal y valvula secundaria , ideal para conectar lavarropas mangueras o accesorios.'
-  },
-{
-    id :48,
+    id :46,
   title: 'Pulidora electrica de alto rendimiento  ',
     price: 105000,
     img: 'img/pulidora.jpg',
@@ -427,7 +413,7 @@ id:8,
   },
 
 {
-    id :49,
+    id :47,
   title: ' Motosierra a gasolina profesional 52cc ',
     price: 115000,
     img: 'img/motosierra.jpg',
@@ -435,16 +421,9 @@ id:8,
     description: 'Motosierra a gasolina profesional 52cc, ideal para trabajos de jardinería y tala de árboles, con gran potencia y durabilidad.'
   },
 
-{
-    id :50,
-  title: ' Balanza electronica digital 40 kg  ',
-    price: 50000,
-    img: 'img/balanzaelectronica.jpg',
-    category: 'herramientas',
-    description: 'Balanza electronica digital 40 kg, ideal para pesar objetos con alta precision, pantalla LCD y facil de usar.'
-  }, 
+
   {
-    id :51,
+    id :48,
   title: ' Hacha con mango de madera   ',
     price: 9800,
     img: 'img/hacha.jpg',
@@ -453,7 +432,7 @@ id:8,
   },
 
  {
-    id :52,
+    id :49,
   title: 'Vincha led de 5 focos  ',
     price: 8000,
     img: 'img/vinchaled5.jpg',
@@ -462,7 +441,7 @@ id:8,
   },
 
 {
-    id :53,
+    id :50,
   title: ' kit luces led para bicicletas    ',
     price: 7500,
     img: 'img/lucesdebicis.jpg',
@@ -471,7 +450,7 @@ id:8,
 },
 
 {
-    id :54,
+    id :51,
   title: ' Set de mechas 8 piezas    ',
     price: 6900,
     img: 'img/mechas.jpg',
@@ -479,7 +458,7 @@ id:8,
     description: 'Set de mechas de alta calidad, incluye 8 piezas en diferentes tamaños, ideal para perforar pared .'
 },
 {
-    id :55,
+    id :52,
   title: ' Taladro con kit de herramientas uso profesional  ',
     price: 57000,
     img: 'img/taladrokitenmaletin.jpg',
@@ -487,7 +466,7 @@ id:8,
     description: 'Taladro atornillador inhalambrico con 2 baterias de 21 voltios , maletin con accesorios.'
 },
 {
-    id :56,
+    id :53,
   title: ' Martillo   ',
     price: 6900,
     img: 'img/martillo.jpg',
@@ -495,7 +474,7 @@ id:8,
     description: 'Martillo de acero forjado, ideal para trabajos de construcción y reparación.'
 },
 {
-    id :57,
+    id :54,
   title: ' Cuchara de albañil  ',  
     price: 3300,
     img: 'img/cucharon.jpg',
@@ -504,7 +483,7 @@ id:8,
 },
 
 {
-    id :58,
+    id :55,
   title: ' Broca esacalonada de titanio 4 -20mm  ',  
     price: 4800,
     img: 'img/broca.jpg',
@@ -512,7 +491,7 @@ id:8,
     description: 'Broca escalonada de titanio, ideal para perforar materiales de diferentes grosores.'
 },
 {
-    id :59,
+    id :56,
   title: ' Discos flap blister x 10 unidades ',  
     price: 8500,
     img: 'img/discosflap.jpg',
@@ -521,7 +500,7 @@ id:8,
 },
 
 {
-    id :60,
+    id :57,
   title: ' Liquido refrigerante concentrado  x 1 litro',  
     price: 4600,
     img: 'img/liquidorefrigerante.jpg',
@@ -530,7 +509,7 @@ id:8,
 },
 
 {
-    id :61,
+    id :58,
   title: ' Lubricante multiuso 330 cm 3 ',  
     price: 5500,
     img: 'img/lubricante.jpg',
@@ -538,8 +517,10 @@ id:8,
     description: 'Lubricante multiuso, ideal para evitar el oxido , lubrica y destraba .'
 },
 
+
+
 {
-    id :62,
+    id :59,
   title: ' Kit taladro mas amoladora de alta potencia inhalambrica ',  
     price: 156000,
     img: 'img/kittaladroyamoladora.jpg',
@@ -548,7 +529,7 @@ id:8,
 },
 
 {
-    id :63,
+    id :60,
   title: ' Desmalezadora a explosión 52cc ',  
     price: 126000,
     img: 'img/desmalezadora.jpg',
@@ -556,7 +537,7 @@ id:8,
     description: 'Desmalezadora a explosión 52cc, ideal para trabajos de jardinería y mantenimiento de áreas verdes.'
 },
 {
-    id :64,
+    id :61,
   title: ' Zuncho Criquet de amarre de 10 mts ',  
     price: 17000,
     img: 'img/zunchocriquet.jpg',
@@ -564,7 +545,7 @@ id:8,
     description: 'Zuncho Criquet de amarre de 10 mts, super reforado,  ideal para amarrar y remolcar 5 toneladas.'
 },
 {
-    id :65,
+    id :62,
   title: 'Set de juego de llaves de 46 piezas ',  
     price: 24500,
     img: 'img/setde46pzas.jpg',
@@ -572,7 +553,7 @@ id:8,
     description: 'Set de juego de llaves de 46 piezas, uso profesional , ideal para trabajos de mecánica y mantenimiento.'
 },
 {
-    id :66,
+    id :63,
   title: 'Taladro de impacto con 48 voltios  ',  
     price: 138000,
     img: 'img/taladrodeimpacto.jpg',
@@ -580,7 +561,7 @@ id:8,
     description: 'Taladro de impacto con 48 voltios,  potente motor para trabajos intensos, maletín de transporte, y cuatro puntas profesionales  incluye 2 baterias de litio.'
 },
 {
-    id :67,
+    id :64,
   title: 'Llave criquet de 1/2 ',  
     price: 8000,
     img: 'img/llavecriquet.jpg',
@@ -588,12 +569,29 @@ id:8,
     description: 'Llave criquet de 1/2, ideal para trabajos de mecánica y mantenimiento.'
 },
 {
-    id :68,
+    id :65,
   title: 'Drone plegable 6 KHD ',  
     price: 57000,
     img: 'img/drone.jpg',
     category: 'herramientas',
     description: 'Drone plegable 6 KHD, ideal para capturar imágenes aéreas y videos en alta definición, protección 360 contra golpes, ideal para principiantes, fácil de usar.'
+},
+
+{
+    id :66,
+  title: 'Set de 6 destonilladores philips ',  
+    price: 9000,
+    img: 'img/destornilladorespack.jpg',
+    category: 'herramientas',
+    description: 'Set de 6 destonilladores philips, ideal para trabajos de precisión y mantenimiento.'
+},
+{
+    id :67,
+  title: 'Cartel Led programable wifi',  
+    price: 100000,
+    img: 'img/pantallaled.jpg',
+    category: 'herramientas',
+    description: 'Cartel Led programable wifi, de 100 x 20 cm ,  ideal para publicidad y señalización, control desde el móvil, fácil de instalar.'
 },
 ]
 
