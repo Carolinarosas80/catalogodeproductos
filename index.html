@@ -10,12 +10,16 @@
 <body>
   <header>
     <h1>Importador Directo CR</h1>
-    <h2>Catálogo de Herramientas y lubricantes</h2>
+    <h2>Catálogo de Herramientas y Lubricantes</h2>
+    
     <nav>
       <button class="filter active" data-filter="all">Todas</button>
       <button class="filter" data-filter="herramientas">Herramientas</button>
+      <button class="filter" data-filter="hogar">Hogar</button>
+      <button id="btnNovedades">Ver solo novedades</button>
     </nav>
-    <input type="text" id="searchInput" placeholder="Buscar herramienta..." />
+
+    <input type="text" id="searchInput" placeholder="Buscar herramienta o producto..." />
   </header>
 
   <main>
@@ -46,3 +50,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
