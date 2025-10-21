@@ -175,31 +175,180 @@ const products = [
      },
   { id: 25, 
     title: 'Mecha Copa 11 piezas de acero de carbono', 
-    price: 10000, img: 'img/mechacopa.jpg', category: 'herramientas', description: 'Juego de mechas copa de 11 piezas, fabricadas en acero de carbono, ideales para perforar madera y yeso.' },
-  { id: 26, title: 'Arrancador de autos multifuncion (Sin Stock) ', price: 85000, img: 'img/arrancadordeauto.jpg', category: 'herramientas', description: 'Arrancador de autos multifuncion, ideal para trabajos de mecánica y mantenimiento automotriz.' },
-  { id: 27, title: 'Linga Candado forrada', price: 13500, img: 'img/lingacandado.jpg', category: 'herramientas', description: 'Linga Candado forrada,  ideal bicicletas y motos ' },
-  { id: 28, title: 'Hidrolavadora Portatil a bateria', price: 55000, img: 'img/hidrolavadora.jpg', category: 'herramientas', description: 'Hidrolavadora portatil a bateria , potente , ligera y facil de usar para limpieza de autos , motos , incluye accesorios' },
-  { id: 29, title: 'Juego de llave torx 9 piezas ', price: 4500, img: 'img/juegodellave.jpg', category: 'herramientas', description: 'Juego de llave torx 9 piezas  .' },
-  { id: 30, title: 'Camara de seguridad wifi 360', price: 32000, img: 'img/camara.jpg', category: 'hogar', description: 'Camara de seguridad wifi 360,lo conectas a un portalamparas , ideal para vigilancia y monitoreo remoto, con microfono ' },
-  { id: 31, title: 'Vincha led de goma ', price: 6500, img: 'img/vinchaleddegoma.jpg', category: 'herramientas', description: 'Vincha led de goma, ideal para trabajos de mecánica y actividades al aire libre.' },
-  { id: 32, title: 'Auto parlante bluetooth', price: 32000, img: 'img/autoparlante.jpg', category: 'hogar', description: 'Auto parlante bluetooth, con radio ,  con cargadr usb y entrada auxilliar  ideal para disfrutar de tu música en cualquier lugar.' },
-  { id: 33, title: 'Candado', price: 3500, img: 'img/candado.jpg', category: 'hogar', description: 'Candado de alta seguridad, ideal para proteger tus pertenencias.' },
-  { id: 34, title: 'Vincha led resistente 1100 lumens', price: 12000, img: 'img/vinchaled.jpg', category: 'hogar', description: 'Vincha led 1100 lumens ,  resistente al agua, alcance 300 mts de disctancia , ideal  para mecanica o para actividades al aire libre.' },
-  { id: 35, title: 'Lector de billetes falsos ', price: 2000, img: 'img/lectordebilletes.jpg', category: 'hogar', description: 'Lector de billetes falsos, ideal para verificar la autenticidad de tus billetes.' },
-  { id: 36, title: 'Calculadora letras grandes ', price: 7300, img: 'img/calculadora.jpg', category: 'hogar', description: 'Calculadora de letras grandes.' },
-  { id: 37, title: 'Sistema Medidor de presion para neumaticos  ', price: 38000, img: 'img/sistematpms.jpg', category: 'hogar', description: 'Monitor digital solar mas usb , 4 sensores externos , alrma de presion y temperatura ,kit listo para usar .' },
-  { id: 38, title: 'Camara para auto delantera y trasera full hd ', price: 38000, img: 'img/camaradeauto.jpg', category: 'hogar', description: 'Camara para auto delantera y trasera full hd , conexion wifi para visualizar y desacargr videos en tu celular , vision nocturna , funcion de reversa con angulo amplio .' },
-  { id: 39, title: 'Contadora de billetes digital  ', price: 84000, img: 'img/contadordebilletes.jpg', category: 'hogar', description: 'Contadora de billetes digital, ideal para contar y verificar billetes de forma rápida y precisa.' },
-  { id: 40, title: 'Sopladora aspiradora inalambrica 21 v  ', price: 39500, img: 'img/sopladora.jpg', category: 'herramientas', description: 'Sopladora aspiradora inalambrica 21 v, con dos baterias .' },
-  { id: 41, title: 'Paneles Led Flexible 20x90cm   ', price: 145000, img: 'img/imagenled.jpg', category: 'hogar', description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .' },
-  { id: 42, title: ' Juego de llave de tubo 12 piezas , con criquet  1/2"', price: 19500, img: 'img/llave de tubo.jpg', category: 'herramientas', description: ' Criquet profesional de alta resistencia , mango ergonomico antideslizante .' },
-  { id: 43, title: 'Destornillador electrico usb  de 47 piezas (Sin stock) ', price: 18500, img: 'img/destornilladorinhalambrico.jpg', category: 'herramientas', description: 'Destornillador electrico usb  de 47 piezas ,kit basico para llegar a todos los rincones incluye mechas y puntas .' },
-  { id: 44, title: ' Kit destornillador 115 en 1  ', price: 14000, img: 'img/kitdestornillador.jpg', category: 'herramientas', description: 'Kit destornillador 115 en 1, incluye una amplia variedad de puntas y accesorios ideal para reparaciones de notebook , camaras ,smartphone , y articulos electronicos , posee puntas magneticas.' },
-  { id: 45, title: ' Mezcladora electrica de mano   ', price: 95000, img: 'img/mezcladora.jpg', category: 'herramientas', description: 'Mezcladora electrica de mano, ideal para mezclar pinturas, cementos yeso o mortero.' },
-  { id: 46, title: 'Pulidora electrica de alto rendimiento  ', price: 105000, img: 'img/pulidora.jpg', category: 'herramientas', description: 'Pulidora electrica de alto rendimiento, ideal para pulir  autos maderas y superficies varias , potencia y velocidad regulables para acabados profesionales.' },
-  { id: 47, title: ' Motosierra a gasolina profesional 52cc ', price: 115000, img: 'img/motosierra.jpg', category: 'herramientas', description: 'Motosierra a gasolina profesional 52cc, ideal para trabajos de jardinería y tala de árboles, con gran potencia y durabilidad.' },
-  { id: 48, title: ' Hacha con mango de madera   ', price: 9800, img: 'img/hacha.jpg', category: 'herramientas', description: 'Hacha con mango de madera, ideal para trabajos de jardinería y construcción, con hoja de acero de alta calidad.' },
-  { id: 49, title: 'Vincha led de 5 focos  ', price: 8000, img: 'img/vinchaled5.jpg', category: 'herramientas', description: 'Vincha led de 5 focos, ideal para trabajos de mecánica y actividades al aire libre,super potente , carga usb .' },
+    price: 10000, 
+    img: 'img/mechacopa.jpg', 
+    category: 'herramientas',
+     description: 'Juego de mechas copa de 11 piezas, fabricadas en acero de carbono, ideales para perforar madera y yeso.'
+     },
+  { id: 26,
+     title: 'Arrancador de autos multifuncion (Sin Stock) ',
+      price: 85000,
+       img: 'img/arrancadordeauto.jpg',
+        category: 'herramientas', 
+        description: 'Arrancador de autos multifuncion, ideal para trabajos de mecánica y mantenimiento automotriz.' 
+      },
+  { id: 27, 
+    title: 'Linga Candado forrada', 
+    price: 13500,
+     img: 'img/lingacandado.jpg',
+      category: 'herramientas',
+       description: 'Linga Candado forrada,  ideal bicicletas y motos ' 
+      },
+  { id: 28,
+     title: 'Hidrolavadora Portatil a bateria', 
+     price: 55000,
+      img: 'img/hidrolavadora.jpg',
+       category: 'herramientas',
+        description: 'Hidrolavadora portatil a bateria , potente , ligera y facil de usar para limpieza de autos , motos , incluye accesorios',
+        nuevo: true
+       },
+  { id: 29,
+     title: 'Juego de llave torx 9 piezas ', 
+     price: 4500,
+      img: 'img/juegodellave.jpg',
+       category: 'herramientas', 
+       description: 'Juego de llave torx 9 piezas  .' 
+      },
+  { id: 30, 
+    title: 'Camara de seguridad wifi 360', 
+    price: 32000, 
+    img: 'img/camara.jpg',
+     category: 'hogar', 
+     description: 'Camara de seguridad wifi 360,lo conectas a un portalamparas , ideal para vigilancia y monitoreo remoto, con microfono ' 
+    },
+  { id: 31, 
+    title: 'Vincha led de goma ', 
+    price: 6500, 
+    img: 'img/vinchaleddegoma.jpg',
+     category: 'herramientas',
+      description: 'Vincha led de goma, ideal para trabajos de mecánica y actividades al aire libre.'
+     },
+  { id: 32,
+     title: 'Auto parlante bluetooth',
+      price: 32000, 
+      img: 'img/autoparlante.jpg',
+       category: 'hogar', 
+       description: 'Auto parlante bluetooth, con radio ,  con cargadr usb y entrada auxilliar  ideal para disfrutar de tu música en cualquier lugar.' 
+      },
+  { id: 33,
+     title: 'Candado',
+      price: 3500, 
+      img: 'img/candado.jpg', 
+      category: 'hogar',
+       description: 'Candado de alta seguridad, ideal para proteger tus pertenencias.' 
+      },
+  { id: 34, 
+    title: 'Vincha led resistente 1100 lumens', 
+    price: 12000, 
+    img: 'img/vinchaled.jpg',
+     category: 'hogar',
+      description: 'Vincha led 1100 lumens ,  resistente al agua, alcance 300 mts de disctancia , ideal  para mecanica o para actividades al aire libre.'
+     },
+  { id: 35,
+     title: 'Lector de billetes falsos ',
+      price: 2000, 
+      img: 'img/lectordebilletes.jpg',
+       category: 'hogar',
+        description: 'Lector de billetes falsos, ideal para verificar la autenticidad de tus billetes.'
+       },
+  { id: 36, 
+    title: 'Calculadora letras grandes ',
+     price: 7300, 
+     img: 'img/calculadora.jpg', 
+     category: 'hogar',
+      description: 'Calculadora de letras grandes.' 
+    },
+  { id: 37,
+     title: 'Sistema Medidor de presion para neumaticos  ',
+      price: 38000,
+       img: 'img/sistematpms.jpg',
+        category: 'hogar', 
+        description: 'Monitor digital solar mas usb , 4 sensores externos , alrma de presion y temperatura ,kit listo para usar .' 
+      },
+  { id: 38,
+     title: 'Camara para auto delantera y trasera full hd ',
+      price: 38000, 
+      img: 'img/camaradeauto.jpg', 
+      category: 'hogar', 
+      description: 'Camara para auto delantera y trasera full hd , conexion wifi para visualizar y desacargr videos en tu celular , vision nocturna , funcion de reversa con angulo amplio .'
+     },
+  { id: 39, 
+    title: 'Contadora de billetes digital  ', 
+    price: 84000, 
+    img: 'img/contadordebilletes.jpg',
+     category: 'hogar', 
+     description: 'Contadora de billetes digital, ideal para contar y verificar billetes de forma rápida y precisa.'
+     },
+  { id: 40,
+     title: 'Sopladora aspiradora inalambrica 21 v  ', 
+     price: 39500,
+      img: 'img/sopladora.jpg', 
+      category: 'herramientas', 
+      description: 'Sopladora aspiradora inalambrica 21 v, con dos baterias .'
+     },
+  { id: 41, 
+    title: 'Paneles Led Flexible 20x90cm (sin stock )  ',
+     price: 145000, 
+     img: 'img/imagenled.jpg', 
+     category: 'hogar',
+      description: 'Paneles Led Flexible,20x90cm , es autoadhesiva , trae un cable largo con corte y control  remoto .'
+     },
+  { id: 42,
+     title: ' Juego de llave de tubo 12 piezas , con criquet  1/2"',
+      price: 19500, 
+      img: 'img/llave de tubo.jpg', 
+      category: 'herramientas',
+       description: ' Criquet profesional de alta resistencia , mango ergonomico antideslizante .'
+       },
+  { id: 43, 
+    title: 'Destornillador electrico usb  de 47 piezas (Sin stock) ', 
+    price: 18500, 
+    img: 'img/destornilladorinhalambrico.jpg', 
+    category: 'herramientas',
+     description: 'Destornillador electrico usb  de 47 piezas ,kit basico para llegar a todos los rincones incluye mechas y puntas .' 
+    },
+  { id: 44,
+     title: ' Kit destornillador 115 en 1  ', 
+     price: 14000, 
+     img: 'img/kitdestornillador.jpg',
+      category: 'herramientas',
+       description: 'Kit destornillador 115 en 1, incluye una amplia variedad de puntas y accesorios ideal para reparaciones de notebook , camaras ,smartphone , y articulos electronicos , posee puntas magneticas.' 
+      },
+  { id: 45, 
+    title: ' Mezcladora electrica de mano   ', 
+    price: 95000, 
+    img: 'img/mezcladora.jpg',
+     category: 'herramientas',
+      description: 'Mezcladora electrica de mano, ideal para mezclar pinturas, cementos yeso o mortero.' 
+    },
+  { id: 46, 
+    title: 'Pulidora electrica de alto rendimiento  ',
+     price: 105000, 
+     img: 'img/pulidora.jpg', 
+     category: 'herramientas',
+      description: 'Pulidora electrica de alto rendimiento, ideal para pulir  autos maderas y superficies varias , potencia y velocidad regulables para acabados profesionales.' 
+    },
+  { id: 47,
+     title: ' Motosierra a gasolina profesional 52cc ', 
+     price: 115000,
+      img: 'img/motosierra.jpg', 
+      category: 'herramientas',
+       description: 'Motosierra a gasolina profesional 52cc, ideal para trabajos de jardinería y tala de árboles, con gran potencia y durabilidad.'
+       },
+  { id: 48, 
+    title: ' Hacha con mango de madera   ', 
+    price: 9800,
+     img: 'img/hacha.jpg', 
+     category: 'herramientas',
+      description: 'Hacha con mango de madera, ideal para trabajos de jardinería y construcción, con hoja de acero de alta calidad.' 
+    },
+  { id: 49, 
+    title: 'Vincha led de 5 focos  ',
+     price: 8000,
+      img: 'img/vinchaled5.jpg', 
+      category: 'herramientas',
+      description: 'Vincha led de 5 focos, ideal para trabajos de mecánica y actividades al aire libre,super potente , carga usb .' 
+    },
   { id: 50, title: ' kit luces led para bicicletas    ', price: 7500, img: 'img/lucesdebicis.jpg', category: 'herramientas', description: 'luz delantera y luz trasera recargables por usb .' },
   { id: 51, title: ' Set de mechas 8 piezas    ', price: 6900, img: 'img/mechas.jpg', category: 'herramientas', description: 'Set de mechas de alta calidad, incluye 8 piezas en diferentes tamaños, ideal para perforar pared .' },
   { id: 52, title: ' Taladro con kit de herramientas uso profesional  ', price: 57000, img: 'img/taladrokitenmaletin.jpg', category: 'herramientas', description: 'Taladro atornillador inhalambrico con 2 baterias de 21 voltios , maletin con accesorios.' },
@@ -217,7 +366,9 @@ const products = [
   { id: 64, title: 'Llave criquet de 1/2 ', price: 8000, img: 'img/llavecriquet.jpg', category: 'herramientas', description: 'Llave criquet de 1/2, ideal para trabajos de mecánica y mantenimiento.' },
   { id: 65, title: 'Drone plegable 6 KHD ', price: 57000, img: 'img/drone.jpg', category: 'herramientas', description: 'Drone plegable 6 KHD, ideal para capturar imágenes aéreas y videos en alta definición, protección 360 contra golpes, ideal para principiantes, fácil de usar.', nuevo: true },
   { id: 66, title: 'Set de 6 destonilladores philips ', price: 9000, img: 'img/destornilladorespack.jpg', category: 'herramientas', description: 'Set de 6 destonilladores philips, ideal para trabajos de precisión y mantenimiento.', nuevo: true },
-  { id: 67, title: 'Cartel Led programable wifi', price: 100000, img: 'img/pantallaled.jpg', category: 'herramientas', description: 'Cartel Led programable wifi, de 100 x 20 cm ,  ideal para publicidad y señalización, control desde el móvil, fácil de instalar.' },
+  { id: 67, title: 'Cartel Led  1mts x 20 , programable wifi', price: 100000, img: 'img/pantallaled.jpg', category: 'herramientas', description: 'Cartel Led programable wifi, de 100 x 20 cm ,  ideal para publicidad y señalización, control desde el móvil, fácil de instalar.', nuevo: true 
+
+  },
 ];
 
 // REFERENCIAS
@@ -334,11 +485,21 @@ filterButtons.forEach(btn => {
 if (btnNovedades) {
   btnNovedades.addEventListener('click', () => {
     showOnlyNew = !showOnlyNew;
-    btnNovedades.classList.toggle('active', showOnlyNew);
-    btnNovedades.textContent = showOnlyNew ? 'Ver todo' : 'Ver solo novedades';
+
+    // Quita el estado activo de los filtros de categoría si se activa "novedades"
+    if (showOnlyNew) {
+      filterButtons.forEach(b => b.classList.remove('active'));
+      currentCategory = 'all';
+      btnNovedades.classList.add('active');
+      btnNovedades.textContent = 'Ver todo';
+    } else {
+      btnNovedades.classList.remove('active');
+      btnNovedades.textContent = 'Ver solo novedades';
+    }
+
     render();
   });
 }
 
-// INICIAL
-render();
+
+
