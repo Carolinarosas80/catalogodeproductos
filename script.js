@@ -429,6 +429,14 @@ const products = [
        description: 'Aspiradora y sopladora portátil,carga usb ,  ideal para limpieza de autos, hogar u oficina , incluye accesorios para diferentes superficies.',
         nuevo: true 
       },
+          { id: 69,
+     title: 'Panel flexible led 35x10  ', 
+     price: 50000,
+      img: 'img/panelflexiblechico.jpg',
+      category: 'herramientas',
+       description: 'Panel flexible led 35x10, con bluetooth y control remoto ,  fácil de instalar y usar.',
+       nuevo: true ,
+      },
 ];
 
 // REFERENCIAS
