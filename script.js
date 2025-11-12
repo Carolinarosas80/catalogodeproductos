@@ -393,6 +393,16 @@ const products = [
        description: 'Panel flexible led 35x10, con bluetooth y control remoto ,  fácil de instalar y usar.',
        nuevo: true ,
       },
+{ id: 64,
+     title: 'kit de 46 piezas  ', 
+     price: 15000,
+      img: 'img/kit46piezas.jpg',
+      category: 'herramientas',
+       description: 'Kit de 46 piezas, ideal para reparaciones y mantenimiento.',
+       nuevo: true ,
+      },
+
+
 ];
 
 // REFERENCIAS
